@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { VITAMIN_PRODUCTS } from "../constants";
 
-const API_KEY = process.env.API_KEY || "";
+const API_KEY = import.meta.env.VITE_API_KEY || "";
 
 export const getExpertRecommendation = async (userSymptoms: string) => {
   const ai = new GoogleGenAI({ apiKey: API_KEY });
