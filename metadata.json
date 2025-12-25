@@ -1,0 +1,5 @@
+{
+  "name": "Vitamin PCA Expert Analysis",
+  "description": "식품공학 전문가의 PCA(주성분 분석) 기반 맞춤형 비타민 추천 시스템입니다. 사용자의 증상을 분석하여 최적의 영양 상태를 제안합니다.",
+  "requestFramePermissions": []
+}
